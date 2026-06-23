@@ -393,6 +393,13 @@ p{margin:0;}
   position:relative; z-index:1; text-align:center; padding:32px 28px;
   font-size:12px; color:var(--ink-soft); font-family:var(--font-mono);
 }
+.footer-email{
+  color:var(--teal-bright);
+  transition:color 0.15s ease;
+}
+.footer-email:hover{
+  color:var(--paper);
+}
 
 /* ============================================
    RESPONSIVE
